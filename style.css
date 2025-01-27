@@ -1,6 +1,6 @@
 *{
     color: white;
-    background: #1a0c2b;
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -15,6 +15,7 @@ body{
     display: flex;
     flex-direction: column; 
     padding:40px;
+    background: #1a0c2b;
 }
 
 .body-home{
@@ -109,6 +110,81 @@ body{
 
 /*
 ======================
+    MEUS PROJETOS 
+======================
+*/
+.main-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-projeto{
+    background-color: #a013dd21;
+    border: 4px #9F13DD solid;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-projeto h3{
+    border-bottom: 1px #F34DA9 solid;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/*
+======================
+    HABILIDADES 
+======================
+*/
+
+.main-icon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.icon i{
+    font-size: 60px;
+}
+
+#react{
+    color: rgb(55, 147, 253)
+}
+
+#js{
+    color: rgb(252, 247, 0);
+}
+
+#html{
+    color: orangered;
+}
+
+#css{
+    color: blue;
+    
+}
+
+#db{
+    color: rgb(21, 158, 238);
+}
+
+#node{
+    color: green;
+}
+
+/*
+======================
     RESPONSIBIDADE 
 ======================
 */
@@ -156,6 +232,29 @@ body{
 
     .main-info{
         margin: 0 20px;
+    }
+
+    .main-card{
+        flex-direction: column;
+    }
+
+    .card-projeto{
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    .card-projeto h3{
+        font-size: 20px;
+        padding: 5px 0;
+    }
+
+    .main-icon{
+        flex-direction: column;
+        margin-top: 10px ;
+    }
+
+    .icon{
+        margin-bottom: 20px;
     }
 }
 
