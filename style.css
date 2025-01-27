@@ -1,0 +1,168 @@
+*{
+    color: white;
+    background: #1a0c2b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 19px;
+    text-align: justify;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    padding:40px;
+}
+
+.body-home{
+    justify-content: center;
+}
+
+/*
+======================
+    INDEX 
+======================
+*/
+
+.principal{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.principal img{
+    width: 25%;
+    height: 25%;
+}
+
+.titulo-principal{
+    font-size: 100px;
+}
+.titulo-principal span{
+    color: rebeccapurple;
+}
+
+.titulo-secundario{
+    font-size: 35px;
+}
+
+.menu{
+    margin-top: 50px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 25px;
+    border-left: #F34DA9 3px solid;
+    padding: 0 15px;
+}
+
+.menu a:first-child{
+    border: none;
+    padding-left: 0;
+}
+
+/*
+======================
+    SOBRE MIM 
+======================
+*/
+
+
+
+.header-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-header{
+    display: flex;
+    align-items: center;
+}
+
+.title-header img{
+    width: 10%;
+    height: 30%;
+    margin-right: 15px;
+}
+
+.title-header h1{
+    font-size: 50px;
+}
+
+.main-info{
+    margin: 0 70px;
+
+}
+
+.link-icon{
+    font-size: 25px;
+}
+
+.link-icon i:hover{
+    color: #F34DA9;
+}
+
+/*
+======================
+    RESPONSIBIDADE 
+======================
+*/
+@media only screen and (max-width: 600px) {
+    .titulo-principal{
+        font-size: 37px;
+        text-align: cebter;
+    }
+
+    .principal{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .principal img{
+        width: 50%;
+    }
+
+    .titulo-secundario{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .menu a {
+        border-bottom: #F34DA9 3px solid;
+        font-size: 20px;
+        display: block;
+        flex-direction: row;
+        padding: 0;
+        border-left: none;
+        margin: 10px;
+    } 
+
+    .menu a:first-child{
+        border-bottom: #F34DA9 3px solid;
+    }
+
+    .title-header h1{
+        font-size: 30px;
+    }
+
+    body{
+        padding: 0 20px;
+    }   
+
+    .main-info{
+        margin: 0 20px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {}
+
+
+@media only screen and (min-width: 768px) {}
+
+
