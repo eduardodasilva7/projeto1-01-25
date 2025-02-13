@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+</head>
+<body >
+    <header class="header-principal">
+        <div class="title-header">
+            <img src="img/logo.png" alt="">
+            <h1>Contato</h1>
+        </div>
+        <a href="index.html" class="link-icon"><i class="fa-solid fa-house"></i></a>
+    </header>
+    <main class="main-contatos">
+        <div class="contatos1">
+            <h2>Minhas Redes</h2>
+            <div class="icons-contatos">
+                <a href="https://br.linkedin.com/" target="_blank">
+                    <span class="icon-contatos"><i class="fa-brands fa-linkedin"></i></span>
+                    @Eduardo
+                </a>
+            </div>
+            <div class="icons-contatos">
+                <a href="https://github.com/eduardodasilva7" target="_blank">
+                    <span class="icon-contatos"><i class="fa-brands fa-github"></i></span>
+                    @eduardodasilva7
+                </a>
+            </div>
+        </div class="contatos2">
+        <div>
+            <h2>Formulário de Contato:</h2>
+            <form>
+                <div class="input-grupo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome">
+                </div>
+                <div class="input-grupo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="input-grupo">
+                    <label for="tel">Telefone:</label>
+                    <input type="tel" id="tel"> 
+                </div>
+                <div class="input-grupo">
+                    <label for="">Mensagem:</label>
+                    <textarea name="" ></textarea>
+                </div>
+                <button class="enviar-form" onclick="verificarCampos(event);">Enviar</button>
+                <p id="msg"></p>
+            </form>
+        </div>
+
+    </main>
+</body>
+    <script src="script.js"></script>
+</html>
