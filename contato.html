@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
 <body >
     <header class="header-principal">
@@ -49,14 +50,15 @@
                 </div>
                 <div class="input-grupo">
                     <label for="">Mensagem:</label>
-                    <textarea name="" ></textarea>
+                    <textarea name="" id="msg"></textarea>
                 </div>
-                <button class="enviar-form" onclick="verificarCampos(event);">Enviar</button>
-                <p id="msg"></p>
+                <button class="enviar-form" onclick="verificarCampos(event)">Enviar</button>
+                <p id="msgO"></p>
             </form>
         </div>
 
     </main>
 </body>
     <script src="script.js"></script>
+    
 </html>
